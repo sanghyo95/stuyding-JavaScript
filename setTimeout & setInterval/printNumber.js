@@ -11,7 +11,7 @@ printNumber(5, 10);
 function printNumberVer2(from, to) {
   let timerId = setInterval(() => {
     console.log(from++);
-    if (from > to) clearInterval(timerId);
+    if (from > to) clearInterval(timerId); 
   }, 1000);
 }
 
